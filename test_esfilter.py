@@ -3,6 +3,7 @@ from selenium import webdriver
 import time
 
 driver=None
+#@pytest.fixture(NULL)
 @pytest.fixture()
 def setup():
 
